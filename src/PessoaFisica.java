@@ -11,7 +11,8 @@ public class PessoaFisica extends Cliente {
         this.idade = idade;
         this.sexo = sexo;
     }
-
+    
+    @Override
     public void imprimir(){
         System.out.println("===== Cliente PF =====");
         System.out.println("Nome: " + this.nome);

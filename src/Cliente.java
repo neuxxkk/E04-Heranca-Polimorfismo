@@ -4,6 +4,7 @@ public class Cliente {
     protected String nome;
     protected String endereco;
     protected Date data;
+    int y;
 
     public Cliente(String nome, String endereco, Date data) {
         this.nome = nome;
